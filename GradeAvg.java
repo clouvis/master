@@ -27,5 +27,7 @@ public class GradeAvg {
         }
         float average = (sum / 5) / 100;
         System.out.format("%-10s %13s", "Average: ", percent.format(average));
+
+        
     }
 }
